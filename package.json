@@ -1,0 +1,33 @@
+{
+    "name": "@bdcash-protocol/bvc",
+    "version": "1.0.0",
+    "description": "Publish and verify code with BDCash Blockchain",
+    "main": "./lib/index.js",
+    "private": false,
+    "scripts": {
+        "pub": "npm publish --access public"
+    },
+    "bin": {
+        "bdcash-bvc": "./bin/global.js"
+    },
+    "keywords": [
+        "blockchain",
+        "bdcash",
+        "Bdcash Protocol"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BdcashProtocol/bdcash-blockchain-versioning-cli"
+    },
+    "preferGlobal": true,
+    "author": "BDCash Protocol",
+    "license": "MIT",
+    "dependencies": {
+        "@bdcash-protocol/core": "^1.0.7",
+        "axios": "^0.19.2",
+        "better-console": "^1.0.1",
+        "crypto-js": "^4.0.0",
+        "folder-hash": "^3.3.2",
+        "form-data": "^3.0.0"
+    }
+}
